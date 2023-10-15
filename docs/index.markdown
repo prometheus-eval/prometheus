@@ -71,7 +71,7 @@ If the user selected to evaluate outputs on multiple trials, they can see the ev
 {: .logos}
 [![Logo of LKLab](/assets/img/lklab_logo.png)](https://lklab.kaist.ac.kr/)
 [![Logo of KAIST](/assets/img/kaist_logo.png)](https://kaist.ac.kr)
-[![Logo of NAVER](/assets/img/naver_logo.png)](https://www.facebook.com/NAVERAILAB)
+[![Logo of NAVER](/assets/img/naver_ai_lab_logo.png)](https://www.facebook.com/NAVERAILAB)
 
 {: .center .acknowledgement}
 This research was supported by the **KAIST-NAVER Hypercreative AI Center**.
