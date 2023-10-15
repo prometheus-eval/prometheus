@@ -69,7 +69,7 @@ If the user selected to evaluate outputs on multiple trials, they can see the ev
 ------
 
 {: .logos}
-[![Logo of LKLab](/assets/img/lklab_logo.png)](https://kixlab.org)
+[![Logo of LKLab](/assets/img/lklab_logo.png)](https://lklab.kaist.ac.kr/)
 [![Logo of KAIST](/assets/img/kaist_logo.png)](https://kaist.ac.kr)
 [![Logo of NAVER](/assets/img/naver_logo.png)](https://www.facebook.com/NAVERAILAB)
 
