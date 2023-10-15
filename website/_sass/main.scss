@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.whitespace {
+  flex: 1;
+}
+
+.wrapper {
+  flex: 2 2 50%;
+}

@@ -1,0 +1,43 @@
+- name: Seungone Kim*
+  affiliation: KAIST LK Lab
+  website: https://seungonekim.github.io/
+  img: seungone.jpeg
+- name: Jamin Shin*
+  affiliation: NAVER AI Lab
+  website: https://www.jayshin.xyz/
+  img: jamin.jpg
+- name: Yejin Cho*
+  affiliation: KAIST XFACT Lab
+  img: yejin.jpeg
+- name: Joel Jang
+  affiliation: UW-NLP
+  website: https://joeljang.github.io/
+  img: joel.jpg
+- name: Shayne Longpre
+  affiliation: MIT Media Lab
+  website: https://www.shaynelongpre.com/
+  img: shayne.jpeg
+- name: Hwaran Lee
+  affiliation: NAVER AI Lab
+  website: https://hwaranlee.github.io/
+  img: hwaran.jpeg
+- name: Sangdoo Yun
+  affiliation: NAVER AI Lab
+  website: https://sangdooyun.github.io/
+  img: sangdoo.jpeg
+- name: Seongjin Shin
+  affiliation: NAVER Cloud
+  website: https://scholar.google.com/citations?user=hF3NWVcAAAAJ&hl=en
+  img: seongjin.jpeg
+- name: Sungdong Kim
+  affiliation: KAIST LK Lab
+  website: https://scholar.google.com/citations?user=xKrSnDoAAAAJ&hl=ko
+  img: sungdong.jpg
+- name: James Thorne
+  affiliation: KAIST XFACT Lab
+  website: https://jamesthorne.com/
+  img: james.jpeg
+- name: Minjoon Seo
+  affiliation: KAIST LK Lab
+  website: https://seominjoon.github.io/
+  img: minjoon.jpeg
