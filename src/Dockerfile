@@ -6,7 +6,5 @@ CMD [ "/bin/bash" ]
 
 RUN pip install accelerate appdirs loralib bitsandbytes black datasets fire transformers>=4.31.0 sentencepiece py7zr scipy optimum peft wandb
 
-RUN pip install --inde
-
 COPY . /Prometheus/
 WORKDIR /Prometheus
