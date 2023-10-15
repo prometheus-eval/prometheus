@@ -13,11 +13,12 @@ However, employing GPT-4 as an evaluator LM has the following disadvantages:
 * <b>Close-source Nature</b>: The proprietary nature of LLMs brings transparency concerns as internal workings are not disclosed to the broader academic community.
 * <b>Uncontrolled Versioning</b>: As reproducibility is a cornerstone of scientific inquiry, any inconsistency stemming from version changes can undermine the robustness of research findings that depend on specific versions of the evaluator LM.
 * <b>Prohibitive Costs</b>: Evaluating 4 LLM variants across four sizes (ranging from 7B to 65B) using GPT-4 on 1K evaluation instances can cost over $2000, which is prohibitive for academic institutions.
-</br>
-</br>
+
+<br>
 To this end, we introduce <span class="sys-name">**Prometheus**</span> 🔥, a fully open-source LLM (7B & 13B) that shows high correlation with both human evaluators and GPT-4!
 
-
+<br>
+<br>
 ## Inducing Fine-grained Evaluation Capability
 The main obstacle of obtaining a language model specialized on evaluation is because it needs to **know the important aspects tailored with the instruction** and should be able to **internally estimate what the answer of the instruction might be** in the first place. After then, the evaluator LM could assess the quality of the responses based on the information derived from the previous two steps.
 
@@ -26,11 +27,12 @@ Our main intuition is that by incorporating the appropriate reference materials,
 {: .sys-img}
 ![input_output_format.](/assets/img/figure2.png)
 
-Specifically, we append a **Score Rubric** and a **Reference Answer** for this purpose.
+Specifically, we append a **Score Rubric** and a **Reference Answer** for the following purpose:
 * <b>Score Rubric</b>: Provides information of the pivotal aspects essential for addressing the given instruction. Without it, the evaluator LM should inherently know what details should be considered from the given instruction.
 * <b>Reference Answer</b>: Relieves the need for the evaluator LM to actually solve the given instruction and solely focus on evaluation the response. This enables to bypass a natural proposition that if an evaluator LM doesn't have the ability to solve the problem, it is likely that it cannot evaluate different responses effectively as well.
 
-
+<br>
+<br>
 ## The Feedback Collection Dataset
 Along with the model, we release the **Feedback Collection**, which is a new feedback dataset that was used to train <span class="sys-name">**Prometheus**</span> 🔥!
 
