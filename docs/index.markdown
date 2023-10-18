@@ -7,7 +7,7 @@ How can you evaluate whether your LLM is humorous or not? Among various versions
 {: .sys-img}
 ![fine_grained_eval.](/assets/img/figure1.png)
 
-Current evaluation resources (e.g., MMLU, Big Bench, AlpacaFarm) are confined to generic, single-dimensional evaluation metrics that are either too domain/task specific (e.g., EM, Rouge) or coarse-grained (e.g., helpfulness/harmlessness). To overcome this issue, recent work has introduced **Fine-grained Evaluation** (e.g., VicunaBench, MTBench, Flask), which measures a LLM's performance based on diverse skill sets (e.g., Creativity, Writing Ability, Role Playing Ability, Logical Abilitiy) based on GPT-4 evaluation.
+Current evaluation resources (e.g., MMLU, Big Bench, AlpacaFarm) are confined to generic, single-dimensional evaluation metrics that are either too domain/task specific (e.g., EM, Rouge) or coarse-grained (e.g., helpfulness/harmlessness). To overcome this issue, recent work has introduced **Fine-grained Evaluation** (e.g., VicunaBench, MTBench, Flask), which measures a LLM's performance based on diverse skill sets (e.g., Creativity, Writing Ability, Role Playing Ability, Logical Ability) based on GPT-4 evaluation.
 
 However, employing GPT-4 as an evaluator LM has the following disadvantages:
 * <b>Close-source Nature</b>: The proprietary nature of LLMs brings transparency concerns as internal workings are not disclosed to the broader academic community.
